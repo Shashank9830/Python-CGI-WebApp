@@ -10,7 +10,7 @@
 
 The _Common Gateway Interface_ offers a standard protocol for web servers to execute programs that execute like Console applications running on a server that generates web pages dynamically.
 
-![CGI Architecture](images/cgiarch.png)
+![CGI Architecture](webapp/images/cgiarch.png)
 
 ## Working
 
@@ -65,7 +65,7 @@ $ python simple_httpd.py
 
 You should see the following output on terminal
 
-![Server started on port 8080](images/http-server-start.PNG)
+![Server started on port 8080](webapp/images/http-server-start.PNG)
 
 This means the server is ready to take requests
 
@@ -75,19 +75,19 @@ _DON'T CLOSE THIS TERMINAL_
 
 You should see the following output on terminal
 
-![Request Webpage content](images/request-webpage.PNG)
+![Request Webpage content](webapp/images/request-webpage.PNG)
 
 3. On the browser you should see this webpage
 
-![Home Page](images/index.PNG)
+![Home Page](webapp/images/index.PNG)
 
 4. Click on the **WebApp** link and you should see successfull execution message in terminal
 
-![Python Script Executed](images/run-webapp.PNG)
+![Python Script Executed](webapp/images/run-webapp.PNG)
 
 5. A new dynamic webpage will be generated like this
 
-![WebApp Result](images/webapp-result-html.PNG)
+![WebApp Result](webapp/images/webapp-result-html.PNG)
 
 ### 2. Shutting down the web server
 
