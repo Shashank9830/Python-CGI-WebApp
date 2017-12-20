@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<title>A simple WebApp</title>
+</head>
+
+<body>
+    <div id="page">
+		
+        <div id="header">
+        	<h1>WebApp »</h1>
+            <h2>A simple WebApp using Python + CGI</h2>
+            
+      	</div>
+        
+        <div id="bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/cgi-bin/generate.py">WebApp</a></li>
+                <li><a href="https://github.com/Shashank9830/Python-CGI-WebApp">GitHub</a></li>
+            </ul>
+      	</div>
+        
+        <div class="contentTitle">
+        	<h1>About this WebApp</h1>
+        </div>
+        	<div class="contentText">
+          		<p>This <strong>WebApp</strong> uses <strong>Python 3</strong> and <strong>CGI</strong> (Common Gateway Interface)</p>
+
+          		<p>Python Scripts read the public key content from a text file and generate HTML code to display it as a webpage</p>
+
+          		<p>The server that is handling this webpage is written in Python and is CGI enabled to run the scripts correctly</p>
+        	</div>
+        	
+        <div class="contentTitle">
+          <h1>Working</h1>
+        </div>
+        	<div class="contentText">
+          		<p><strong>generate.py</strong> imports keyreader and template_engine modules</p>
+
+          		<p><strong>keyreader.py</strong> converts text data into a list and displays each line in HTML format</p>
+
+          		<p><strong>template_engine.py</strong> generates the entire HTML code</p>
+        	</div>
+        
+        <div class="contentTitle">
+        	<h1>Webpage Template</h1>
+        </div>
+        
+        	<div class="contentText">
+        		<p>Reverted by <a href="http://www.bryantsmith.com"> Bryant Smith</a></p>
+        	</div>  
+	</div>
+</body>
+</html>
